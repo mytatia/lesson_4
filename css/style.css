@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato Black";
+  src: url("../fonts/Lato-Black.ttf");
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Larsseit Bold";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Larsseit Medium";
+  src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),
+    url("../fonts/Larsseit-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.woff2") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff");
+}
+
+h1 {
+  font-family: "ROboto";
+  font-weight: 900;
+  font-size: x-large;
+  color: rgb(235, 15, 37);
+}
+
+h2,
+h3 {
+  font-family: "Lato black";
+}
+p ~ #startup_five {
+  color: rgb(77, 39, 245);
+  font-family: "Larsseit Bold";
+}
+footer {
+  font-family: "Lato Regular";
+}
+ol {
+  font-family: "Larsseit Bold";
+}
+li.one {
+  color: violet;
+  font-family: "Larsseit Bold";
+}
+.first_p {
+  color: green;
+  font-family: "Larsseit Medium";
+}
+#startup_two {
+  font-family: "Lato Bold";
+  color: blue;
+}
+#startup_four {
+  font-family: "Lato Black";
+}
+.second_p {
+  font-family: "Larsseit Bold";
+  color: rgb(1, 9, 9);
+}
